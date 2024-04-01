@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       SoraHub | Bypasser.
+// @name       SoraHub | Universal Bypasser 
 // @run-at     document-start
 // @author     SoraaDeb
 // @version         5.1.4
@@ -8,19 +8,20 @@
 // @grant          GM_getValue
 // @grant          GM_addStyle
 // @grant          GM_xmlhttpRequest
+// @grant          GM_notification
+// @grant          GM_openInTab
 // @grant          window.onurlchange
 // @grant          GM_registerMenuCommand
+
+// @antifeatures ads
+
 // @icon           https://cdn-icons-png.flaticon.com/512/14025/14025295.png
 
 // @match        https://mobile.codex.lol/*
 // @connect      linkvertise.com
 // @connect      api.codex.lol
 // @connect      *
-// @run-at       document-end
-// @grant        GM_xmlhttpRequest
-// @grant        GM_notification
-// @grant        GM_openInTab
-// @antifeatures ads
+
 // @match *://*.aprovax.com/*
 // @match *://*.lootcash.vip/*
 // @match *://*.mixrootmods.com/*
